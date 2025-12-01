@@ -59,7 +59,8 @@ Stock-Forecasting-WebApp/
 📊 Example Output
 
 Use the live demo link above to view interactive charts.
-(See screenshot preview below)
+![App Screenshot](https://raw.githubusercontent.com/Noorahmedks-2103/Stock-Forecasting-WebApp/main/assets/screenshot.png)
+
 
 📝 License
 
