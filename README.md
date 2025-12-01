@@ -1,57 +1,61 @@
-📈 Stock Price Forecasting Web App
+━━━━━━━━━━━━━━━━━━━━━━
+📈 Stock Price Forecasting – Machine Learning Web App
+━━━━━━━━━━━━━━━━━━━━━━
 
-I developed and deployed a Machine Learning based application that predicts future stock prices using real-time financial market data and interactive visualization.
+✨ I’m excited to share my latest ML project — a live deployed web application that predicts future stock prices using real-time market data and Machine Learning.
 
-🔗 Live Demo:
-https://stock-forecasting-webapp-z5odae5cyymerm4e895pch.streamlit.app/
+🔗 Live Demo
+🌍 https://stock-forecasting-webapp-z5odae5cyymerm4e895pch.streamlit.app/
 
-💻 GitHub Repository:
-https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp
+💻 GitHub Repository
+📦 https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp
 
-🚀 Features
-• Fetches real 5-year stock market price data using yfinance
-• Predicts next 30 days closing price using Linear Regression ML model
-• Interactive UI with stock selection dropdown
-• Beautiful graph visualization (History vs Forecast)
-• Deployed on Streamlit Cloud
-• Custom dark theme using CSS
+━━━━━━━━━━━━━━━━━━━━━━
+🚀 Key Features
+━━━━━━━━━━━━━━━━━━━━━━
 
+⚡ Fetches real historical 5-year stock market data via yFinance API
+📉 Predicts next 30 days of stock closing prices
+📊 Visual comparison between real values & forecast
+🖥️ Interactive dropdown to choose stock (AAPL, TSLA, GOOGL, MSFT, AMZN)
+🌑 Custom dark-themed UI design
+☁ Deployed globally using Streamlit Cloud
+
+━━━━━━━━━━━━━━━━━━━━━━
 🧠 Tech Stack
-Python, Pandas, NumPy, yFinance, Scikit-Learn, Matplotlib, Streamlit, GitHub
+━━━━━━━━━━━━━━━━━━━━━━
 
-📷 App Preview Screenshot
+🔹 Python | Pandas | NumPy
+🔹 yFinance | Scikit-Learn | Matplotlib
+🔹 Streamlit (Web UI + CSS Custom Styling)
+🔹 GitHub | Streamlit Cloud Deployment
+
+━━━━━━━━━━━━━━━━━━━━━━
+📷 UI Preview
+━━━━━━━━━━━━━━━━━━━━━━
+
+🖼 Screenshot:
 https://raw.githubusercontent.com/Noorahmedks-2103/Stock-Forecasting-WebApp/main/assets/Screenshot.png
 
-⚙ How to Run Locally
+━━━━━━━━━━━━━━━━━━━━━━
+📊 Future Enhancements
+━━━━━━━━━━━━━━━━━━━━━━
 
-Clone the repository
-git clone https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp.git
+🔮 Add LSTM / Neural Networks
+🔍 Add stock text search
+📑 Export forecast report PDF
+📈 Add multi-stock comparison chart
 
-Install dependencies
-pip install -r requirements.txt
+━━━━━━━━━━━━━━━━━━━━━━
+👨‍💻 About Me
+━━━━━━━━━━━━━━━━━━━━━━
 
-Train model
-python src/model.py
-
-Run app
-streamlit run app.py
-
-📊 Output
-• Visual forecast chart
-• Real-time stock comparison
-• Supports: AAPL, TSLA, GOOGL, MSFT, AMZN
-
-🔥 Future Enhancements
-• Add LSTM / Prophet model for higher accuracy
-• Stock search input feature
-• Compare multiple companies
-• Export downloadable report
-
-👨‍💻 Author
 K S Noor Ahamad
-Final-Year CSE Student | ML & Data Science
-Tirupati, Andhra Pradesh
+Final Year CSE | Machine Learning & Data Science Enthusiast
+📍 Tirupati, Andhra Pradesh
 📧 nkurnipalli34@gmail.com
 
-⭐ If you like this project, please star the repo and share your feedback 😊
+━━━━━━━━━━━━━━━━━━━━━━
+⭐ If you liked this project, please star the repo & drop feedback 🙌
+━━━━━━━━━━━━━━━━━━━━━━
 
