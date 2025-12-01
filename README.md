@@ -1,51 +1,37 @@
-# 📈 Stock Price Forecasting Web App
+📈 Stock Price Forecasting Web App
 
-Predict future stock prices using machine learning in a fully interactive web app.
+Predict future stock prices using Machine Learning with a modern interactive interface.
 
-[🌐 Live Demo](https://stock-forecasting-webapp-z5odae5cyymerm4e895pch.streamlit.app/) | [💻 Repository](https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp)
+🔗 Live Demo:
+https://stock-forecasting-webapp-z5odae5cyymerm4e895pch.streamlit.app/
 
----
+💻 GitHub Repository:
+https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp
+🚀 Features
 
-## 🔧 Features
-- Fetches 5-year historical data from stock market using :contentReference[oaicite:1]{index=1}  
-- Trains a regression model to forecast future 30-day closing price  
-- Interactive web interface built with :contentReference[oaicite:2]{index=2}  
-- Visualization of history vs. forecast to compare trends  
+Fetches real 5-year stock market price data using yfinance
 
----
+ML model predicts 30-day future stock price trend
 
-## 🧰 Tech Stack & Libraries
+Interactive UI with stock selection dropdown
 
-| Library / Tool | Purpose |
-|----------------|---------|
-| Python 3.12 | Backend language |
-| pandas, numpy | Data handling & manipulation |
-| scikit-learn | Training regression model |
-| yfinance | Fetching real-world stock data |
-| matplotlib | Plotting charts & graphs |
-| Streamlit | Web UI framework |
-| GitHub | Version control & code repository |
-| Streamlit Cloud | Deployment & hosting |
+Graph visualization comparing history vs forecast
 
----
+Deployed on Streamlit Cloud
 
-## 🧠 How It Works
-1. The app fetches historical data (5 years) of the selected stock.  
-2. It converts dates into numerical feature (“Day index”) and trains a Linear Regression model on closing prices.  
-3. On user request, the app predicts closing prices for the next 30 days.  
-4. Results are shown via interactive chart comparing history vs. forecast.
-
----
-
-## 🚀 Quick Start (Run Locally)
-
-```bash
-git clone https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp.git
-cd Stock-Forecasting-WebApp
-pip install -r requirements.txt
-python src/model.py          # Train the model (generates model.pkl)
-streamlit run app.py         # Start the web app
-📦 Project Structure
+Custom dark theme UI with CSS
+🧠 Tech Stack
+Tool / Library	Purpose
+Python	Core programming
+Pandas / NumPy	Data manipulation
+yFinance	Financial data API
+Scikit-Learn	ML regression model
+Matplotlib	Visualization
+Streamlit	Web app development
+GitHub + Streamlit Cloud	Deployment
+📷 App Preview
+https://raw.githubusercontent.com/Noorahmedks-2103/Stock-Forecasting-WebApp/main/assets/Screenshot.png
+🧾 Project Architecture
 Stock-Forecasting-WebApp/
 ├── src/
 │   └── model.py
@@ -56,20 +42,42 @@ Stock-Forecasting-WebApp/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-📊 Example Output
+⚙️ Run the Project Locally
+git clone https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp.git
+cd Stock-Forecasting-WebApp
+pip install -r requirements.txt
+python src/model.py          # Train & generate model.pkl
+streamlit run app.py         # Run the app
+📊 Output Example
 
-Use the live demo link above to view interactive charts.
-![App Screenshot](https://raw.githubusercontent.com/Noorahmedks-2103/Stock-Forecasting-WebApp/main/assets/screenshot.png)
+Historical closing prices shown on chart
 
+Predicted values visualized clearly against actual
 
-📝 License
+Supports multiple stocks: AAPL, TSLA, GOOGL, MSFT, AMZN
 
-MIT License — see LICENSE
- for details.
+🔥 Future Improvements
+
+Add Prophet / LSTM deep learning model
+
+Add user-typed stock search instead of dropdown
+
+Compare multiple models
+
+Add exportable downloadable report
 
 👨‍💻 Author
 
-K S Noor Ahamad — Final-Year CSE Student
+K S Noor Ahamad
+Final-Year CSE Student | ML & Data Science
+📍 Tirupati, Andhra Pradesh
 📧 nkurnipalli34@gmail.com
 
-📍 Tirupati, Andhra Pradesh, India
+📝 License
+
+MIT License — see LICENSE for details.
+
+⭐ Support
+
+If you like this project, please ⭐ star the repository 🙌
+
