@@ -1,83 +1,57 @@
 📈 Stock Price Forecasting Web App
 
-Predict future stock prices using Machine Learning with a modern interactive interface.
+I developed and deployed a Machine Learning based application that predicts future stock prices using real-time financial market data and interactive visualization.
 
 🔗 Live Demo:
 https://stock-forecasting-webapp-z5odae5cyymerm4e895pch.streamlit.app/
 
 💻 GitHub Repository:
 https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp
+
 🚀 Features
+• Fetches real 5-year stock market price data using yfinance
+• Predicts next 30 days closing price using Linear Regression ML model
+• Interactive UI with stock selection dropdown
+• Beautiful graph visualization (History vs Forecast)
+• Deployed on Streamlit Cloud
+• Custom dark theme using CSS
 
-Fetches real 5-year stock market price data using yfinance
-
-ML model predicts 30-day future stock price trend
-
-Interactive UI with stock selection dropdown
-
-Graph visualization comparing history vs forecast
-
-Deployed on Streamlit Cloud
-
-Custom dark theme UI with CSS
 🧠 Tech Stack
-Tool / Library	Purpose
-Python	Core programming
-Pandas / NumPy	Data manipulation
-yFinance	Financial data API
-Scikit-Learn	ML regression model
-Matplotlib	Visualization
-Streamlit	Web app development
-GitHub + Streamlit Cloud	Deployment
-📷 App Preview
+Python, Pandas, NumPy, yFinance, Scikit-Learn, Matplotlib, Streamlit, GitHub
+
+📷 App Preview Screenshot
 https://raw.githubusercontent.com/Noorahmedks-2103/Stock-Forecasting-WebApp/main/assets/Screenshot.png
-🧾 Project Architecture
-Stock-Forecasting-WebApp/
-├── src/
-│   └── model.py
-├── assets/
-│   └── style.css
-├── model.pkl
-├── app.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-⚙️ Run the Project Locally
+
+⚙ How to Run Locally
+
+Clone the repository
 git clone https://github.com/Noorahmedks-2103/Stock-Forecasting-WebApp.git
-cd Stock-Forecasting-WebApp
+
+Install dependencies
 pip install -r requirements.txt
-python src/model.py          # Train & generate model.pkl
-streamlit run app.py         # Run the app
-📊 Output Example
 
-Historical closing prices shown on chart
+Train model
+python src/model.py
 
-Predicted values visualized clearly against actual
+Run app
+streamlit run app.py
 
-Supports multiple stocks: AAPL, TSLA, GOOGL, MSFT, AMZN
+📊 Output
+• Visual forecast chart
+• Real-time stock comparison
+• Supports: AAPL, TSLA, GOOGL, MSFT, AMZN
 
-🔥 Future Improvements
-
-Add Prophet / LSTM deep learning model
-
-Add user-typed stock search instead of dropdown
-
-Compare multiple models
-
-Add exportable downloadable report
+🔥 Future Enhancements
+• Add LSTM / Prophet model for higher accuracy
+• Stock search input feature
+• Compare multiple companies
+• Export downloadable report
 
 👨‍💻 Author
-
 K S Noor Ahamad
 Final-Year CSE Student | ML & Data Science
-📍 Tirupati, Andhra Pradesh
+Tirupati, Andhra Pradesh
 📧 nkurnipalli34@gmail.com
 
-📝 License
-
-MIT License — see LICENSE for details.
-
-⭐ Support
-
-If you like this project, please ⭐ star the repository 🙌
+⭐ If you like this project, please star the repo and share your feedback 😊
 
