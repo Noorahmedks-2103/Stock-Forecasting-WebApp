@@ -13,7 +13,11 @@ option = st.selectbox("Choose Stock to Predict", stocks)
 model = pickle.load(open("model.pkl", "rb"))
 
 if st.button("Predict Future Prices"):
-    data = yf.download(option, period="5y")
+    try:
+    data = yf.download(option, period="5y", interval="1d")
+except:
+    st.error("API limit reached. Please try again after 1 minute.")
+
     data["Day"] = range(len(data))
     future_days = 30
     future = pd.DataFrame({"Day": range(len(data), len(data)+future_days)})
